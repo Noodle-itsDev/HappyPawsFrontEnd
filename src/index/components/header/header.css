@@ -1,19 +1,34 @@
+
+
 @media (min-width:320px) and (max-width: 480px)
 {
-    #header {
-        position: relative;
-        background: linear-gradient(to left, #ff914d, #ffde59);
-        width: 320px;
-        height: 50px;
-        bottom: 45vh;
-        z-index: 0;
 
-        
+  @font-face {
+    font-family: 'cocomat pro';
+    src: url(/src/fonts/cocomat_pro/CocomatPro-Black.ttf);
+    font-weight: bold;
+    font-style:normal;
+  }
+    body {
+        margin: 0;
+        padding: 0;
+      }
+    #header {
+        background: linear-gradient(to left, #ff914d, #ffde59);
+        width: 100%;
+        height: 100px;
+        z-index: 0;
+               
         }
         #acces
         {
-        color: white !important;
+          position: relative;
+        color: white;
         text-decoration: none;
         z-index: 1;
+        bottom: 8vh;
+        left: 79%;
+        font-family: 'cocomat pro';
+        font-size: 18px;
         }
 }

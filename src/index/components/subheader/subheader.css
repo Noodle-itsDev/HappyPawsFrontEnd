@@ -1,0 +1,11 @@
+@media (min-width:320px) and (max-width: 480px)
+{
+
+    #logo
+    {
+        display: flex;
+        position: relative;
+        right: 3vh;
+
+    }
+}
