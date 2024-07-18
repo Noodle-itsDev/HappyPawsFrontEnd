@@ -3,9 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components-mascotas/header';
 import ProductCard from './components-mascotas/ProductCard';
 import ProductCard2 from './components-mascotas/ProductCard2';
-import imagengato1 from './assets/gato1.png';
-import reborde from './assets/reborde-felinos.png';   
 import PiePagina from './components-mascotas/piePagina';
+import FiltroAdoptar from './components-mascotas/filtroAdoptar';  // Importación correcta del componente FiltroAdoptar
+import imagengato1 from './assets/gato1.png';
+import reborde from './assets/reborde-felinos.png';
 import GatoREI from './assets/gato-rei.jpg';
 
 const products = [
@@ -62,25 +63,26 @@ const products = [
     title: "Simba",
     description: "Soy un gato tranquilo y cariñoso. Me gusta descansar en lugares soleados y recibir caricias. Soy un gran compañero y me encanta estar cerca de mis humanos.",
     genero: "Macho",
-},
-{
+  },
+  {
     imageUrl: imagengato1,
     title: "Mimi",
     description: "Soy una gata juguetona y enérgica. Me encanta jugar con pelotas y perseguir juguetes. Siempre estoy buscando algo divertido para hacer y disfruto de la compañía de otros gatos.",
     genero: "Hembra",
-},
-{
+  },
+  {
     imageUrl: imagengato1,
     title: "Oliver",
     description: "Soy un gato inteligente y observador. Me gusta sentarme en lugares altos y observar todo lo que sucede a mi alrededor. Disfruto de los mimos y siempre estoy listo para una siesta.",
     genero: "Macho",
-},
+  },
 ];
 
 const itemsPerPage = 5;
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
+  const [showPopup, setShowPopup] = useState(false); 
 
   const totalPages = Math.ceil(products.length / itemsPerPage);
 
@@ -92,14 +94,20 @@ const App: React.FC = () => {
   const endIndex = startIndex + itemsPerPage;
   const currentProducts = products.slice(startIndex, endIndex);
 
+  const togglePopup = () => {
+    setShowPopup(!showPopup); // Cambia el estado para mostrar u ocultar el popup
+  };
+
   return (
     <>
       <Header />
+      <button onClick={togglePopup}>Filtrar</button> {}
+      {showPopup && <FiltroAdoptar onClose={togglePopup} />} {}
       <Routes>
         <Route path="/" element={
           <>
             {currentProducts.map((product, index) => (
-              index % 2 === 0 ? (   
+              index % 2 === 0 ? (
                 <ProductCard
                   key={index}
                   rebordefelinos={reborde}

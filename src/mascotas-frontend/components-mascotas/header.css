@@ -1,58 +1,114 @@
 /* src/components/header.css */
 
-body {
-  margin: 0;
+/* Media query para móviles */
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav {
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .bottom-section {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+  }
+  
+  
+  
+  .header-image {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 220px;
+    height: auto;
+  }
+  
+  .titulo-mascota {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    padding: 1rem;
+    margin-top: 40px;
+  }
 }
 
-.header-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 1rem;
-}
+/* Media query para vistas de ordenador (481px o más) */
+@media (min-width: 481px) {
+  .header-container {
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
 
-nav {
-  color: white;
-  padding: 1rem;
-  border-radius: 5px;
-  font-size: 18px;
-}
+  nav {
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 18px;
+  }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
 
-nav ul li {
-  margin: 0 10px;
-}
+  nav ul li {
+    margin: 0 10px;
+  }
 
-nav a {
-  text-decoration: none;
-  color: inherit;
-}
+  nav a {
+    text-decoration: none;
+    color: inherit;
+  }
 
-.bottom-section {
-  position: absolute;
-  width: 100%;
-  background-color: white;
-}
+  .bottom-section {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+  }
 
+  .header-image {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 220px;
+    height: auto;
+  }
 
-
-.header-image {
-  margin-top: 15px;
-  margin-left: 20px;
-  width: 220px;
-  height: auto;
-}
-
-.titulo-mascota {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 24px;
-  padding: 1rem;
-  margin-top: 40px;
+  .titulo-mascota {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    padding: 1rem;
+    margin-top: 40px;
+  }
 }

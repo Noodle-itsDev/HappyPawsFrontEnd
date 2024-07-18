@@ -1,6 +1,13 @@
-.pie-pagina-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+
+@media (min-width: 481px) { /* Vista Ordenador */
+
 }
+@media (max-width: 480px) { /* Vista Movil*/
+    .pie-pagina-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 

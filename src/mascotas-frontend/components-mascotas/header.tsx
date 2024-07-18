@@ -15,8 +15,8 @@ const Header: React.FC = () => {
           <img src={imglogo} className="header-image" />
       </div>
       <div className='titulo-mascota'>
-        <h1>Adopta a un 
-          <br/>Felino</h1>
+        <h1>Adopta a una
+          <br/>Mascota</h1>
       </div>
     </>
   );
