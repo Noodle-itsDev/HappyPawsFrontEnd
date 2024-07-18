@@ -4,6 +4,7 @@ import Header from './index/components/header/header.tsx'
 import Logo from './index/components/subheader/logo.tsx'
 import Portada from './index/components/portada/portada.tsx'
 import { Menu } from './index/components/menu/menu.tsx'
+import Encuesta from './index/encuesta/encuesta.tsx'
 function App() {
 
 
@@ -18,6 +19,7 @@ function App() {
           <Logo/>
           <Portada/>
           <Menu/>
+          <Encuesta/>
         </>   }/>
        
      

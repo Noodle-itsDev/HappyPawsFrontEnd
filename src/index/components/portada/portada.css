@@ -18,26 +18,26 @@
         height: 43vh;
         z-index: 1;
         bottom: 37.5vh;
-        right: 0.4vh;
+        right: 0.4vw;
         filter: drop-shadow(20px 30px 0px rgba(0, 0, 0, 0.2));
     }
 
     #heart1
     {
         position: relative;
-        width: 75%;
-        height: 50vh;
+        width: 75vw;
+        height: 40vh;
         bottom: 84vh;
-        left: 10vh;
+        left: 20%;
         z-index: 2;
     }
 
     #heart2
     {
         position: relative;
-        width: 100%;
-        bottom: 133vh;
-        right: 1vh;
+        width: 94vw;
+        height: 50vh;
+        bottom: 120vh;
         z-index: 2;
 
     }
