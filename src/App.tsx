@@ -1,7 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Header from './index/components/header/header.tsx'
-import SubeHeader from './index/components/subheader/subheader.tsx'
+import Logo from './index/components/subheader/logo.tsx'
+import Portada from './index/components/portada/portada.tsx'
+import { Menu } from './index/components/menu/menu.tsx'
 function App() {
 
 
@@ -13,7 +15,9 @@ function App() {
          element={
           <>         
           <Header/> 
-          <SubeHeader/>
+          <Logo/>
+          <Portada/>
+          <Menu/>
         </>   }/>
        
      
