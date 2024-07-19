@@ -7,9 +7,10 @@ interface ProductCardProps {
   title: string;
   description: string;
   genero: string;
+  tipomascota: 'Perro' | 'Gato';
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({  imageUrl, title, description, genero }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ imageUrl, title, description, genero, tipomascota }) => {
   return (
     <div className="product-card-container">
       <div className="background-card">
@@ -19,6 +20,7 @@ const ProductCard: React.FC<ProductCardProps> = ({  imageUrl, title, description
             <h2 className="product-title">{title}</h2>
             <p className="product-description">{description}</p>
             <p className="product-genero">{genero}</p>
+            {tipomascota && <p className="product-tipomascota">{tipomascota}</p>}
           </div>
         </div>
       </div>

@@ -1,52 +1,102 @@
 .popup-filtro {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .buscador {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .opcion {
-    margin-right: 20px;
-    margin-bottom: 10px;
-  }
-  
-  select {
-    width: 200px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .btn_marron {
-    margin-top: 10px;
-  }
-  
-  .btn_marron a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #6b4e3d;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-  
-  .btn_marron a:hover {
-    background-color: #54392d;
-  }
-  
-  .hidden-label {
-    display: none; /* Oculta los labels inicialmente */
-  }
-  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f9f9f9;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icono-filtro{
+  width: 18px;
+  margin-left: 15px;
+}
+
+.boton-filtrar {
+  background-color: #ff0606;
+  color: #fff;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 80px;
+}
+
+.boton-filtrar:hover {
+  background-color: #cc0505;
+}
+
+.buscador {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.opcion {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select {
+  width: 220px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+select:focus {
+  border-color: #888;
+}
+
+.btn_marron {
+  margin-top: 20px;
+}
+
+.btn_marron a {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #6b4e3d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn_marron a:hover {
+  background-color: #54392d;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
