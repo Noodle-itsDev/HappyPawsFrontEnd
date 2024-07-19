@@ -1,0 +1,32 @@
+@media (min-width:320px) and (max-width: 480px)
+{
+
+    @font-face {
+        font-family: 'Nunito sans';
+        src: url(/src/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    #background2
+    {
+        position: relative;
+        background-image: url('../../assets-index/9.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        z-index: 2;
+        bottom: 270vh;
+    }
+    #img-protect-maps
+    {
+        position: relative;
+        width: 50%;
+        height: 30vh;
+        bottom: 310vh;
+        z-index: 3;
+    }
+
+}

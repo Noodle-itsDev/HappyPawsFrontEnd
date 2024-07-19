@@ -1,0 +1,49 @@
+@media (min-width:320px) and (max-width: 480px)
+{
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../../../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+        font-weight: bold;
+        font-style: bold;
+    }
+    #img
+    {
+        position: relative;
+        width: 94vw;
+        height: 60vh;
+        bottom: 210vh;
+        right: 4vh;
+        z-index: -2;
+    }
+
+    #img1
+    {
+        position: relative;
+        width: 50vw;
+        height: 21vh;
+        bottom: 265vh;
+        z-index: -1;
+
+    }
+    #txt2
+    {
+        position: relative;
+        color: #50C878;
+        font-family: 'Montserrat';
+        bottom: 280vh;
+        width: 50%;
+        left: 20vh;
+        font-size: 20px;
+        z-index: 0;
+    }
+
+    #btn1
+    {
+        position: relative;
+        color: #50C878;
+        width: 50%;
+        height: 5vh;
+        border-radius: 20px;
+        bottom: 280vh;
+    }
+}
