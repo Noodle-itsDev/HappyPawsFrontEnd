@@ -6,14 +6,24 @@
         font-weight: bold;
         font-style: bold;
     }
+    
+    #imagen-fondo
+    {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 50vh;
+        bottom: 260vh;
+        
+    }
     #img
     {
         position: relative;
         width: 94vw;
         height: 60vh;
-        bottom: 210vh;
+        bottom: 170vh;
         right: 4vh;
-        z-index: -2;
+        z-index: 2;
     }
 
     #img1
@@ -21,8 +31,8 @@
         position: relative;
         width: 50vw;
         height: 21vh;
-        bottom: 265vh;
-        z-index: -1;
+        bottom: 225vh;
+        z-index: 3;
 
     }
     #txt2
@@ -30,11 +40,11 @@
         position: relative;
         color: #50C878;
         font-family: 'Montserrat';
-        bottom: 280vh;
+        bottom: 295vh;
         width: 50%;
-        left: 20vh;
+        left: 15vh;
         font-size: 20px;
-        z-index: 0;
+        z-index: 3;
     }
 
     #btn1
@@ -43,7 +53,9 @@
         color: #50C878;
         width: 50%;
         height: 5vh;
+        border: 3px;
         border-radius: 20px;
-        bottom: 280vh;
+        bottom: 290vh;
+        z-index: 3;
     }
 }

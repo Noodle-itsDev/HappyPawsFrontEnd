@@ -48,7 +48,7 @@ function Encuesta ()
    </form>
 
    <button id='btn'><b>Buscar</b></button>
-   <div id='efect'></div>
+
 
         </>
     )
