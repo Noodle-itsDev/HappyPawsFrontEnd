@@ -1,14 +1,18 @@
-@media (min-width: 320px) and (max-width: 480px) {
-    
+@font-face {
+    font-family: 'Nunito sans';
+    src: url(/src/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
 
-    #background-adoptions 
+    #fondo-adopciones
     {
-        display: flex;
         position: relative;
+        background: linear-gradient(to left, #ff914d, #ffde59);
         width: 100%;
-        height: 70vh;
-        bottom: 73h;
+        height: 50vh;
         z-index: 0;
+        bottom: 385vh;
     }
 
     #fondo-superior-izquierda
@@ -17,27 +21,82 @@
         width:60vw;
         height: 25vh;
         transform: rotate(20deg);
-        bottom: 376vh;
-        right: 16vh;
-        z-index: 3;
+        bottom: 436vh;
+        right: 22.4vh;
+        z-index: 1;
     }
   
     #fondo-inferior-izquierda
     {
         position: relative;
-        width: 60vw;
-        height: 25vh;
-        z-index: 3;
-        bottom: 375vh;
-        right: 12vh;
+        width: 70vw;
+        height: 40vh;
+        z-index: 1;
+        bottom: 435vh;
+        right: 18vh;
     }
 
-    #fondo-inferior-derecha
-    {
-        position: relative;
-        width: 60vw;
-        height: 25vh;
-    }
-    
+#fondo-inferior-derecha
+{
+    display: flex;
+    position: relative;
+    width: 60vw;
+    height: 30vh;
+    bottom: 475vh;
+    left: 18vh;
+    z-index: 1;
+}
+#foto-perro
+{
+    position: relative;
+    width: 80vw;
+    height: 40vh;
+    bottom: 525vh;
+    right: 4vh;
+    z-index: 2;
+
+}
+
+#descripcion-adopciones
+{
+    display: flex;
+    position: relative;
+    font-family: 'Nunito sans';
+    font-size: 14px;
+    width: 20vh;
+    height: 15vh;
+    bottom: 552vh;
+    left: 25vh;
+    color: white;
+    z-index: 2;
+}
+
+#titulo-adopciones
+{
+    display: flex;
+    position: relative;
+    font-family: 'Nunito sans';
+    color: white;
+    font-size: 25px;
+    width: 60vw;
+    text-align: left;
+    justify-content: end;
+    justify-items: end;
+    bottom: 557vh;
+    left: 15vh;
+    z-index: 2;
+}
+
+#boton-de-adopciones
+{
+    position: relative;
+    bottom: 555vh;
+    left: 25vh;
+    width: 25%;
+    height: 4vh;
+    border-radius: 20px;
+    color: #50c878;
+    font-size: 18px;
+    z-index: 2;
 }
 

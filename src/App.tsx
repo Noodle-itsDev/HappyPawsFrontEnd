@@ -8,6 +8,7 @@ import Encuesta from './index/components/encuesta/encuesta.tsx'
 import Info from './index/components/info/info.tsx'
 import Maps from './index/components/maps/maps.tsx'
 import Adoptions from './index/components/adoptions/adoptions.tsx'
+import FooterHome from './index/components/footer/footer.tsx'
 function App() {
 
 
@@ -26,6 +27,7 @@ function App() {
           <Info/>
           <Maps/>
           <Adoptions/>
+          <FooterHome/>
         </>   }/>
        
      

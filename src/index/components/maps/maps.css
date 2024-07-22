@@ -1,5 +1,4 @@
-@media (min-width:320px) and (max-width: 480px)
-{
+
 
     @font-face {
         font-family: 'Montserrat';
@@ -18,15 +17,15 @@
         width: 100%;
         height: 100vh;
         z-index: 1;
-        bottom: 285vh;
+        bottom: 295vh;
     }
     #img-protect-maps
     {
         position: relative;
         width: 85%;
         height: 50vh;
-        bottom: 370vh;
-        left: 4vh;
+        bottom: 380vh;
+        left: 7vh;
         z-index: 2;
     }
 
@@ -36,7 +35,7 @@
         position: relative;
         font-size: 20px;
         font-family: 'Montserrat';
-        bottom: 420vh;
+        bottom: 430vh;
         z-index: 3;
         color: white;
         width: 60%;
@@ -47,7 +46,7 @@
     {
         
         position: relative;
-        bottom: 385vh;
+        bottom: 390vh;
         width: 25%;
         height: 4vh;
         border-radius: 20px;
@@ -56,4 +55,3 @@
         z-index: 2;
     }
 
-}

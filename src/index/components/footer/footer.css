@@ -1,0 +1,45 @@
+#background-footer
+{
+
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    bottom: 554vh;
+    z-index: 2;
+}
+
+#cuidar-section
+{
+    position: relative;
+    background-color: #87CEEB;
+    width: 50vw;
+    height: 25vh;
+    z-index: 3;
+    left: 8vh;
+    bottom: 595vh;
+    border-radius: 50%;
+}
+
+#donar-section
+{
+    position: relative;
+    width: 50vw;
+    height: 25vh;
+    background-color: #50C878;
+    left: 2vh;
+    border-radius: 10%;
+    bottom: 638vh;
+    left: 9vh;
+    z-index: 4;
+}
+
+#adoptar-section
+{
+    position: relative;
+    width: 259px;
+    height: 280px;
+    bottom: 301rem;
+    left: 45%;
+    z-index: 5;
+}

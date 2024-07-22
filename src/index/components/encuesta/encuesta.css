@@ -1,5 +1,4 @@
-@media (min-width:320px) and (max-width: 480px)
-{
+
     @font-face {
         font-family: 'Nunito sans';
         src: url(/src/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
@@ -11,7 +10,7 @@
         position: relative;
         background-color: #ffa500;
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         z-index: 0;
         bottom: 130vh;
         
@@ -24,7 +23,7 @@
         font-family: 'Nunito sans';
         font-size: 20px;
         z-index: 1;
-        bottom: 190vh;
+        bottom: 210vh;
         left: 4vh;
         text-align: center;
         width: 70%;
@@ -39,7 +38,7 @@
         color: white;
         width: 30%;
         font-size: 18px;
-        bottom: 190vh;
+        bottom: 210vh;
         left: 8%;
         z-index:1;
     } 
@@ -48,10 +47,10 @@
     {
         position: relative;
         width: 70%;
-        height: 2.5vh;
+        height: 4vh;
         border: 2px solid black;
         border-radius: 15px;
-        bottom: 190vh;
+        bottom: 210vh;
         left: 10%;
         z-index: 1;
     }
@@ -65,7 +64,7 @@
         height: 5vh;
         border: 0px;
         border-radius: 25px;
-        bottom: 185vh;
+        bottom: 200vh;
         left: 5vh;
         font-size: 18px;
         font-family: 'Nunito sans';
@@ -77,4 +76,3 @@
 
 
 
-}

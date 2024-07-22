@@ -1,12 +1,12 @@
-@media (min-width:320px) and (max-width: 480px)
-{
+
     #subheader
     {
         display: flex;
         position: relative;
         width: 20vw;
-        height: 5vh;
+        height: 7vh;
          bottom: 2vh;
+         left: 1vh;
     }
     .logo
     {
@@ -16,4 +16,3 @@
     }
 
 
-}

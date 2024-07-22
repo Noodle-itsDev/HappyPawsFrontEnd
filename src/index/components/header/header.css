@@ -1,7 +1,5 @@
 
 
-@media (min-width:320px) and (max-width: 480px)
-{
 
   @font-face {
     font-family: 'cocomat pro';
@@ -31,4 +29,3 @@
         font-family: 'cocomat pro';
         font-size: 18px;
         }
-}
