@@ -5,39 +5,40 @@
         position: relative;
         background: linear-gradient(to right, #0079b2, #7ED957);
         width: 100%;
-        height: 38vh;
+        height: 380px;
         z-index: 0;
-        top: 1vh;
-        
+        bottom: 5px;        
     }
 
     #portada{
         display: flex;
         position: relative;
-        width: 80%;
-        height: 43vh;
+        width: 300px;
+        height: 450px;
         z-index: 1;
-        bottom: 37.5vh;
-        right: 0.4vw;
+        bottom: 24.5rem;
+        right: 5px; 
         filter: drop-shadow(20px 30px 0px rgba(0, 0, 0, 0.2));
     }
 
     #heart1
     {
+        display: flex;
         position: relative;
-        width: 75vw;
-        height: 40vh;
-        bottom: 84vh;
-        left: 20%;
+        width: 500px;
+        height: 300px;
+        bottom: 50rem;
+        right: 130px;
         z-index: 2;
     }
 
     #heart2
     {
+        display: flex;
         position: relative;
-        width: 94vw;
-        height: 50vh;
-        bottom: 120vh;
+        width: 300px;
+        height: 400px;
+        bottom: 64rem;
         z-index: 2;
 
     }

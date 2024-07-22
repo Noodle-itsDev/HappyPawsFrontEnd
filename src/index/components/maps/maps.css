@@ -15,17 +15,17 @@
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 100vh;
+        height: 850px;
         z-index: 1;
-        bottom: 295vh;
+        bottom: 155rem;
     }
     #img-protect-maps
     {
         position: relative;
         width: 85%;
-        height: 50vh;
-        bottom: 380vh;
-        left: 7vh;
+        height: 430px;
+        bottom: 200rem;
+        left: 15%;
         z-index: 2;
     }
 
@@ -35,20 +35,20 @@
         position: relative;
         font-size: 20px;
         font-family: 'Montserrat';
-        bottom: 430vh;
+        bottom: 226rem;
         z-index: 3;
         color: white;
         width: 60%;
-        height: 8vh;
+        height: 70px;
     }
 
     #boton-del-mapa
     {
         
         position: relative;
-        bottom: 390vh;
+        bottom: 205rem;
         width: 25%;
-        height: 4vh;
+        height: 35px;
         border-radius: 20px;
         color: #50c878;
         font-size: 18px;

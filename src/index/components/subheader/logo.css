@@ -3,16 +3,10 @@
     {
         display: flex;
         position: relative;
-        width: 20vw;
-        height: 7vh;
-         bottom: 2vh;
-         left: 1vh;
-    }
-    .logo
-    {
-        width: 100vw;
-        height: 60vh;
-      
+        width: 200px;
+        height: 60px;
+         bottom: 1rem;
+         left: 4%;
     }
 
 

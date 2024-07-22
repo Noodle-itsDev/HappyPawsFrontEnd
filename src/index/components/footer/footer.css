@@ -1,11 +1,19 @@
+@font-face {
+    font-family: 'Nunito sans';
+    src: url(/src/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
 #background-footer
 {
 
     display: flex;
     position: relative;
-    width: 100vw;
+ 
+    width: 96vw;
     height: 80vh;
-    bottom: 554vh;
+    bottom:292rem;
     z-index: 2;
 }
 
@@ -13,33 +21,71 @@
 {
     position: relative;
     background-color: #87CEEB;
-    width: 50vw;
-    height: 25vh;
+    width: 150px;
+    height: 150px;
     z-index: 3;
-    left: 8vh;
-    bottom: 595vh;
+    left: 50px;
+    bottom: 323rem;
     border-radius: 50%;
 }
 
 #donar-section
 {
     position: relative;
-    width: 50vw;
-    height: 25vh;
+    width: 150px;
+    height: 150px;
     background-color: #50C878;
-    left: 2vh;
+    left: 2px;
     border-radius: 10%;
-    bottom: 638vh;
-    left: 9vh;
+    bottom: 342rem;
+    left: 30px;
     z-index: 4;
 }
 
 #adoptar-section
 {
     position: relative;
-    width: 259px;
-    height: 280px;
-    bottom: 301rem;
-    left: 45%;
+    width: 200px;
+    height: 200px;
+    bottom: 350rem;
+    left: 120px;
     z-index: 5;
+}
+#cuidar-title
+{
+    display: flex;
+    position: relative;
+    width: 60px;
+    font-size: 18px;
+    font-family: 'Nunito sans';
+    color: white;
+    z-index: 4;
+    bottom: 318rem;
+    left: 95px;
+}
+
+#donar-title
+{
+    display: flex;
+    position: relative;
+    width: 60px;
+    font-size: 18px;
+    font-family: 'Nunito sans';
+    color: white;
+    z-index: 5;
+    bottom: 337rem;
+    left: 80px;
+}
+
+#adoptar-title
+{
+    display: flex;
+    position: relative;
+    width: 60px;
+    font-size: 18px;
+    font-family: 'Nunito sans';
+    color: white;
+    z-index: 6;
+    bottom: 343.5rem;
+    left: 190px;
 }
