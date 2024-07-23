@@ -1,5 +1,5 @@
 import React from 'react';
-import './piePagina.css';
+import './piePaginaNavegacion.css';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 

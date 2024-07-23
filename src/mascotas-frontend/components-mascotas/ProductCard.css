@@ -4,18 +4,6 @@
     position: relative;
   }
 
-  .reborde-felinos-container {
-    position: absolute;
-    top: -30px; 
-    left: 0;
-    width: 100%;
-    z-index: 1; 
-  }
-
-  .reborde-felinos {
-    width: 100%;
-    height: auto;
-  }
 
   .background-card {
     position: relative; 
