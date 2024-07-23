@@ -62,6 +62,7 @@
     z-index: 4;
     bottom: 318rem;
     left: 95px;
+    text-decoration: none;
 }
 
 #donar-title
@@ -75,6 +76,7 @@
     z-index: 5;
     bottom: 337rem;
     left: 80px;
+    text-decoration: none;
 }
 
 #adoptar-title
@@ -88,4 +90,12 @@
     z-index: 6;
     bottom: 343.5rem;
     left: 190px;
+    text-decoration: none;
+}
+
+#cuidar-link
+{
+    display: flex;
+    bottom: 290rem;
+    z-index: 5;
 }
