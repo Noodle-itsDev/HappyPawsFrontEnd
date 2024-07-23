@@ -1,0 +1,9 @@
+#footer
+{
+    position: relative;
+    background: linear-gradient(to left, #0097B2, #7ED957);
+    width: 98vw;
+    height: 30vh;
+    bottom: 345rem;
+    z-index: 6;
+}

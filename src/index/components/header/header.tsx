@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import'../header/header.css'
-function Header()
+
+
+const Header: React.FC = () =>
 {
     return(
         <>

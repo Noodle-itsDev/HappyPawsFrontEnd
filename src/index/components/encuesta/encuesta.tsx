@@ -1,6 +1,6 @@
 import'./encuesta.css'
 
-function Encuesta ()
+const Encuesta:React.FC = () =>
 {
     return(
         <>

@@ -1,7 +1,7 @@
 import './maps.css'
 import img7 from'../../assets-index/8.png'
 
-function Maps()
+const Maps: React.FC = ()=>
 {
     return(
         <>

@@ -1,6 +1,6 @@
 import img from'../../assets-index/LogoPaws.png'
 import'./logo.css'
-function Logo()
+const Logo: React.FC = () =>
 {
     return(
         <>

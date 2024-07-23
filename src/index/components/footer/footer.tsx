@@ -1,9 +1,9 @@
-import React from "react";
+
 import'./footer.css';
 import img12 from '../../assets-index/4.png';
 import img13 from '../../assets-index/14.png'
 
-function FooterHome()
+const FooterHome: React.FC = () =>
 {
     return(
         <>

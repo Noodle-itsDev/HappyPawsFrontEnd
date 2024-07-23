@@ -6,7 +6,7 @@ import img11 from'../../assets-index/9.png'
 
 
 
-function Adoptions()
+const Adoptions:React.FC = () =>
 {
     return(
         <>

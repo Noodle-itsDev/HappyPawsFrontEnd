@@ -4,7 +4,7 @@ import img5 from'../../assets-index/6.png'
 import img6 from '../../assets-index/4.png'
 
 
-function Info()
+const Info: React.FC = () =>
 {
     return(
         <>

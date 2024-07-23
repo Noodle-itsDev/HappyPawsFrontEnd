@@ -2,7 +2,7 @@ import img1 from'../../assets-index/1.png'
 import img2 from'../../assets-index/2.png'
 import img3 from '../../assets-index/3.png'
 import'./portada.css'
-function Portada()
+const Portada: React.FC = () =>
 {
     return(
         <>
