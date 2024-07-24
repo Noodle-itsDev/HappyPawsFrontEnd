@@ -93,9 +93,3 @@
     text-decoration: none;
 }
 
-#cuidar-link
-{
-    display: flex;
-    bottom: 290rem;
-    z-index: 5;
-}
