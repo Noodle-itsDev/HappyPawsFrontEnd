@@ -58,10 +58,13 @@
     padding: 1rem;
     margin-top: 40px;
   }
-}
+} 
 
 /* Media query para vistas de ordenador (481px o más) */
 @media (min-width: 481px) {
+  body {
+    margin: 0;
+  }
   .header-container {
     justify-content: flex-end;
     align-items: center;
@@ -107,7 +110,7 @@
   .titulo-mascota {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 24px;
+    font-size: 34px;
     padding: 1rem;
     margin-top: 40px;
   }
